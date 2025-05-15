@@ -11,5 +11,5 @@ services:
     environment:
       VNC_PASSWORD: "geheim123"
     volumes:
-      - test:/volume1/docker/volumes/test
+      - /volume1/docker/volumes/test:/test
     restart: unless-stopped
